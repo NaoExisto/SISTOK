@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: rubik;
+}
+
+main {
+    padding-left: 20px;
+
+}
+
+#sistok {
+    font-size: 32px;
+    padding: 10px 10px 10px 10px;
+
+
+
+}
+
+.nav_header {
+    padding: 30px;
+    background-color: white;
+}
+
+#sobre {
+    margin-left: 100px;
+    color: #4C5D73;
+}
+
+#servicos {
+    padding: 20px;
+    color: #4C5D73;
+}
+
+#atuacao {
+    padding: 20px;
+    color: #4C5D73;
+
+}
+
+#planos {
+    padding: 20px;
+    color: #4C5D73;
+}
+
+#ajuda {
+    padding: 20px;
+    color: #4C5D73;
+}
+
+#cadastre {
+    color: #304F8C;
+}
+
+#entra {
+    background-color: white;
+    color: #304F8C;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+}
+
+#p16 {
+    font-size: 16px;
+}
+
+.Text {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+}
+
+.Text>h1 {
+    font-size: 40px;
+}
+
+#sistokImg {
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
+#qc {
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    border: #304F86;
+    background-color: #304F8C;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.img1 {
+    flex-direction: row;
+    display: flex;
+}
+
+.homeNav {
+    flex-direction: row;
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+    margin-bottom: 30px;
+    
+
+}
+
+.NavNav {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    padding-right: 50px;
+   
+}
+
+.NavNav>span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.NavNav>p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.navservicos {
+    flex-direction: row;
+    display: flex;
+    
+
+}
+
+.servicosbotton {
+    flex-direction: column;
+    display: flex;
+    margin-left: 30px;
+    width: 268px;
+    height: 208;
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+}
+
+.servicosbotton>img {
+
+    width: 67px;
+    height: 67px;
+    padding: 20px;
+}
+
+.servicosbotton>p {
+    text-align: left;
+}
+
+.img2 {
+
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Text2 {
+
+    margin-right: 690px;
+    text-align: right;
+    flex-direction: column;
+    display: flex;
+    font-size: 16px;
+    font-weight: normal;
+    color: #4C5D73;
+    width: 676px;
+    height: 278px;
+    text-align: left;
+}
+
+.Text2>input {
+    border: 2px solid #304F8C;
+    width: 248px;
+    height: 48px;
+    background: #ffffff;
+    color: #304F8C;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.atuacao {
+    width: 1155px;
+    height: 424;
+}
+
+.NAVAtuacaoPrincipal {
+    flex-direction: row;
+    display: flex;
+}
+
+.NavAtuacao {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    width: 268px;
+    height: 208px;
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+}
+
+.NavAtuacao>img {
+
+    width: 105px;
+    height: 105px;
+    
+
+}
+
+.planos1 {
+    
+    width: 268px;
+    height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+}
+/* plano iniciante*/
+.planos1>input {
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    
+}
+/* plano basico*/
+.planos2 {
+    
+    width: 268px;
+    height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+      padding: 10px;
+      box-shadow: 5px 5px 5px rgb(254, 255, 255);
+  
+}
+
+
+.planos2>input {
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    margin-top: 20px;
+    
+}
+/* plano essencial*/
+.planos3 {
+    
+    width: 268px;
+    height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+    background-color: #304F86;
+    border-radius: 10px;
+    padding: 10px;
+    
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+  
+}
+#popular{
+    margin-top: -60px;
+    margin-left: 25px;
+
+
+}
+.planos3>input {
+    
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    
+}
+/* plano grande*/
+.planos4 {
+    
+    width: 268px;
+    height: 288px;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    justify-content: center;
+     padding: 10px;
+    box-shadow: 5px 5px 5px rgba(205, 219, 203, 0.192);
+  
+}
+.planos4>input {
+   
+    border-radius: 10px;
+    border-color: #304F8C;
+    background-color: #ffffff;
+    color: #304F8C;
+    
+    
+}
+
+
+
+
+#basico1 {
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+     
+}
+
+#basico2{
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+     
+}
+#basico3{
+    
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+    margin-top: 20px;
+     
+}
+#popular{
+    width: 70%;
+    text-align: center;
+    background-color: #94F2E9;
+    color: #304F8C;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+#basico4{
+    width: 220px; /* Defina a largura do botão */
+    height: 48px; /* Defina a altura do botão */
+    background-color: #ffffff; /* Cor de fundo do botão */
+    color: #304F8C; /* Cor do texto do botão */
+    margin-top: 32px;
+     
+    
+}
+
+.navplanos {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    text-align: center;
+
+
+}
+/*parte  do final do site*/
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    font-size: ;
+}
+
+.recursos{
+   
+    width: 120px;
+    height: 226px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+   
+   
+   
+}
+#irecurso{
+    font-weight: bold;
+}
+
+#lista1{
+    width: 97px;
+    height: 226px;
+    line-height: 23px;
+    
+}
+
+.precos{
+    width: 183px;
+    height: 158px;
+    
+    color:#ffffff ;
+    text-align: left; /* Centraliza o texto horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Centraliza o conteúdo verticalmente */
+    
+    
+
+}
+#ipreco{
+    font-weight: bold;
+}
+#lista2{
+    line-height: 23px;
+}
+.contato{
+    
+    width: 100px;
+    height: 130px;
+    color: #ffffff;
+    margin-top: 20px;
+
+
+}
+#icontato{
+    font-weight: bold;
+}
+#lista4{
+    width: 100px;
+    height: 130px;
+}
+.institucional{
+    width: 169;
+    height: 158;
+    color: #ffffff;
+    margin-top: 20px;
+}
+#instucional{
+    font-weight: bold;
+}
+#lista5{
+    width: 169;
+    height: 158;
+    line-height: 23px;
+}
+.email{
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 10px;
+    line-height: 50px;
+
+}
+.email>input{
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.email>img{
+    display: flex;
+    margin-top: 10px;
+}
+.email>::placeholder{
+    padding: 10px;
+}
+
+.final1 p{
+
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    
+
+}
+.final1{
+    background-color: black;
+    margin-top: -15px;
+}
+
