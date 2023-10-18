@@ -32,3 +32,5 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 O projeto está disponível em [Clone-Sistok no Vercel](https://sistok-murex.vercel.app/) para visualização.
 
 Seja bem-vindo ao Clone-Sistok, e sinta-se à vontade para contribuir ou entrar em contato conosco!
+
+![Captura-Sistok](https://github.com/NaoExisto/SISTOK/assets/63436061/a9f455c8-4c2f-447e-a916-6558d4d09318)
